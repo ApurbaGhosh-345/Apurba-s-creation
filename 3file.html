@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./IMG-20190510-WA0009.jpg);
+            
+        }
+        .input[type=text]{
+            width:100% ;
+            padding:15px ;
+            margin: 20px;  ;
+            display: inline-block;
+            border: none;
+        }
+        .header{
+            overflow: hidden;
+            color: whitesmoke;
+            text-align: center;
+            font size: large;
+            padding:20px 10px;
+            font-size:18px;
+            line-height:25px;
+            }
+        .left{
+        position: absolute;
+        left: 34px;
+        top:20px;
+        display: inline-block;
+
+    }
+    .left img{
+        width: 100px;
+        
+    }
+    .navbar li{
+        display: inline-block;
+        text-align: center;
+        padding: 30px 20px;
+        line-height: 25px;
+        font-size: 17px;
+        
+    }
+    .navbar li a {
+        color: blueviolet;
+        display: inline-block;
+        text-decoration: none;
+        padding: 25px 15px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: chartreuse;
+    }
+    </style>
+</head>
+<body>
+       <header class="left">
+        <div class="left">
+            <img src="./IMG-20190510-WA0047.jpg" alt="">
+             </div>
+    <div class="header">
+        <div class="header">
+            <h2>souvik'S CREATION</h2>
+        </div>
+        <div>
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">details</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            <form action="/action-page.php">
+            <div class="container">
+                <h1>form</h1>
+                <hr>
+                <label for="name"><b>enter your name</b></label>
+                <input type="text"
+                placeholder="enter your name" name="name"
+                id="name" required>
+                    <hr>
+                    <label for="email"><b>enter your email</b></label>
+                    <input type="text"
+                    placeholder="enter your email" name="email"
+                    id="email" required>
+                            <hr>
+                            <label for="mobile"><b>enter your mobile</b></label>
+                            <input type="text"
+                            placeholder="enter your mobile" name="mobile"
+                            id="mobile" required>
+                            <hr>
+                            <label for="address"><b>enter your address</b></label>
+                            <input type="text"
+                            placeholder="enter your address" name="address"
+                            id="address" required>
+                           
+                            
+                        
+                        </div></form>
+                        enter your gender:
+                           <input type="radio" name="gender" value="male">male
+                           <input type="radio" name="gender" value="female">female
+                           <input type="radio" name="gender" value="others">others
+                           <br><br>
+                           <button type="submit" class="regisrebtn">submit</button>
+                           <button type="submit" class="regisrebtn">reset</button>
+                </div></form>
+        </div>
+</body>
+</html>
